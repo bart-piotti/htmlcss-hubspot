@@ -11,7 +11,7 @@ a {
 }
 
 .container {
-    width: 90%;
+    width: 85%;
     margin: auto;
 }
 
@@ -388,4 +388,62 @@ clear: both;
 .brands_right img {
     display: inline-block;
     width: 90%;
+}
+
+.cta_left {
+    float: left;
+    width: 40%;
+    padding-top: 60px;
+}
+
+.cta_right {
+    float: right;
+    width: 60%;
+    text-align: right;
+    position: relative;
+}
+
+.cta_container {
+    padding: 50px 0;
+}
+
+.cta_left h5 {
+    font-size: 32px;
+    color: rgb(51, 71, 91);
+    padding-bottom: 5px;
+}
+
+.cta_left p {
+    font-size: 13px;
+    color: rgb(81, 101, 121);
+    padding-top: 25px;
+}
+
+.cta_left span {
+    margin-bottom: 25px;
+}
+
+.cta_left #cta_main_p {
+    font-size: 18px;
+    color: rgb(51, 71, 91);
+    line-height: 1.7;
+    padding-bottom: 25px;
+    padding-top: 0;
+}
+
+.cta_right img, .boh {
+    position: absolute;
+    left: 25%;
+}
+
+.boh {
+    background-image: url('img/cta_thug.png');
+    width: 426px;
+    height: 428px;
+    opacity: 0;
+}
+
+.boh:hover{
+    opacity: 1;
+    transition-duration: 1s;
 }
