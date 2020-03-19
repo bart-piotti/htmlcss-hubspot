@@ -13,19 +13,18 @@ a {
 .container {
     width: 80%;
     margin: auto;
-    height: 100%;
 }
 
 .container::after {
     content: "";
     display: table;
-    clear: right;
+    clear: both;
 }
 
 .clearfix::after {
 content: "";
 display: table;
-clear: right;
+clear: both;
 }
 
 .header_top {
@@ -249,6 +248,7 @@ clear: right;
     margin-top: 15px;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 50px;
 }
 
 .main_r2_left, .main_r2_right {
@@ -291,4 +291,69 @@ clear: right;
 .box:hover {
     transform: scale(1.05);
     transition-duration: 0.5s;
+    box-shadow: -1px 10px 9px 1px rgba(0, 0, 0, 0.3);
+}
+
+.blue_block {
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    height: 100%;
+}
+
+.blue_title {
+    width: 65%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.blue_block h3{
+    font-size: 30px;
+    color: white;
+}
+
+.blue_title p {
+    color: white;
+    line-height: 1.8;
+    padding-top: 30px;
+}
+
+.blue_col {
+    width: 25%;
+    float: left;
+}
+
+.blue_col_1::after {
+content: "";
+display: table;
+clear: both;
+}
+
+.blue_box {
+    text-align: center;
+    color: white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.blue_col .blue_box:last-child {
+    border-bottom: none;
+}
+
+.blue_col_4 .blue_box {
+    border-right: none;
+}
+.blue_number {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.blue_box_descr {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.blue_container_colonne{
+    padding: 50px 0;
 }
