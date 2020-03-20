@@ -58,6 +58,7 @@ clear: both;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     position: fixed;
     z-index: 1;
+    overflow: hidden;
 }
 
 .h_top_l {
@@ -173,6 +174,8 @@ clear: both;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px rgba(0, 0, 0, 0.02);
     padding-top: 100px;
+    max-height: 200px;
+    overflow: hidden;
 }
 
 .h_bot_l {
